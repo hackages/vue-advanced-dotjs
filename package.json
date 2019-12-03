@@ -1,0 +1,44 @@
+{
+  "name": "vue-advanced",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "format": "prettier --write 'src/**/*.js'",
+    "format:vue": "prettier --write 'src/**/*.vue'"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "lodash": "^4.17.11",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.1",
+    "@vue/cli-plugin-eslint": "^4.1.1",
+    "@vue/cli-service": "^4.1.1",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.0.1",
+    "lint-staged": "^7.3.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  }
+}
